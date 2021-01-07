@@ -485,8 +485,8 @@ color: white;
 /* @media screen and (max-width: 768px) { */
 @media screen and (max-width:1024px){
     .main_container{
-        height:55vh;
-        background-size: 100% 60%;
+        height:70vh;
+        background-size: 100% 70%;
         border-top-right-radius: 2rem;
         border-top-left-radius: 2rem;
     }
@@ -574,6 +574,18 @@ color: white;
     }
     .col-3{
         width: 90%;
-        margin: 2rem 2rem;
+        margin: 2rem 1rem;
+    }
+    .col-3 img {
+        width: 16rem;
+        height: 16rem;
+    }
+    .col-4 img {
+        width: 16rem;
+        height: 16rem;
+    }
+    .host .col-3 img {
+        width: 17rem;
+        height: 14rem;
     }
 }
